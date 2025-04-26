@@ -5,10 +5,12 @@ def train_model():
 
     model.train(
         data='data.yaml',
-        epochs=100,
+        epochs=200,
         imgsz=640,
         workers=4,
         batch=16,
+        device = 'mps',
+        name='merged_paintings_sculptures'
     )
 
 if __name__ == "__main__":

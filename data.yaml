@@ -2,8 +2,8 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 6
-names: ['libre', 'monalisa', 'objects', 'skrik', 'starrynight', 'sunflower']
+nc: 9
+names: ["libre", "monalisa", "objects", "skrik", "starrynight", "sunflower", "doggy", "gundam", "waiter"]
 
 roboflow:
   workspace: testing-images

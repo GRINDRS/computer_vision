@@ -12,7 +12,7 @@ def main():
     client.connect(broker, port, 60)
 
     # === Load the YOLO model ===
-    model = YOLO('/Users/grigorcrandon/Desktop/deco3801_computer_vision/runs/detect/train5/weights/best.pt')
+    model = YOLO('/Users/grigorcrandon/Desktop/deco3801_computer_vision/runs/detect/merged_paintings_sculptures3/weights/best.pt')
 
     # === Start webcam ===
     cap = cv2.VideoCapture(0)
