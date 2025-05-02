@@ -5,10 +5,10 @@ def train_model():
 
     model.train(
         data='data.yaml',
-        epochs=200,
+        epochs=200, # try 150
         imgsz=640,
         workers=4,
-        batch=16,
+        batch=16,#batch try 32
         device = 'mps',
         name='merged_paintings_sculptures'
     )
